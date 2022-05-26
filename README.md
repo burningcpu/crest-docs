@@ -133,9 +133,9 @@ Based on the underlying principle of Uniswap V3, we established a multifactor qu
 
 **Product Description:** by depositing in the leveraged vault, users can create long or short trading LP positions to earn trading income based on market evaluation and earn high mining income. However, trading LP positions would face higher liquidation risks.
 
-## 7. **Why Choose Universe Finance?**
+## 7. **Why Choose** Crest**?**
 
-**High return:** the true return rate of ETH-USD LP in Universe Finance is the highest in the past few months.
+**High return:** the true return rate of ETH-USD LP in Crest is the highest in the past few months.
 
 **Stable income:** after extreme market tests, our users can still enjoy low retracement and high Sharpe ratio and continuously earn fee income.
 
@@ -145,21 +145,21 @@ Based on the underlying principle of Uniswap V3, we established a multifactor qu
 
 **Simple:** automatic balancing, automatic reinvesting, automatic income tracking, etc.
 
-## 8. Universe product roadmap
+## 8. Crest product roadmap
 
-**2021 Q2**
+**2022 Q2**
 
 * Backtesting system: Completed
 * Active LP quantitative management strategy: Completed
 * Smart Vault: Completed
 
-**2021 Q3**
+**2022 Q3**
 
 * Private Vault: Completed
 * Hedge Vault: Developing
 * L2 Support : Developing
 
-**2021 Q4**
+**2022 Q4**
 
 * Leveraged Vault: Designing
 * Token economic model (staking dividends, burning, etc.): To be determined
@@ -172,6 +172,6 @@ Based on the underlying principle of Uniswap V3, we established a multifactor qu
 * We believe professional and active LP management will be a hot trend to develop in DEX with a promising future and tremendous market potential.
 * We can migrate some of our products and technologies to other public chains and DEX (Sushiswap, PancakeSwap, Mdex, etc.). However, we will focus on Ethereum and Uniswap in the short and medium-term.
 
-## 10.Universe Finance's vision
+## 10.Crest's vision
 
 Maximize the liquidity income on Uniswap; build a one-stop yield platform with the highest and most stable real rate of return across the whole Defi market.
