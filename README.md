@@ -1,71 +1,179 @@
-# What is MyProduct?
+# Crest.money
 
-{% hint style="info" %}
-**Good to know:** providing a brief overview of your product and its core use cases is a great place to start with product docs. Your product might seem obvious to you – you made it! However, to others, even folks who are trying your product after reading your site or getting a sales demo, it can still be unclear. This is your chance to clarify your product and set the right expectations!
-{% endhint %}
+## **1. What is** Crest**?**
 
-Here are a couple of examples of succinct overviews from products with really great docs:
+Crest is an active liquidity management platform of Uniswap V3 based on risk ranking and quantitative strategies.&#x20;
 
-> Loom is a video messaging tool that helps you get your message across through instantly shareable videos.
->
-> With Loom, you can record your camera, microphone, and desktop simultaneously. Your video is then instantly available to share through Loom's patented technology.
->
-> — From the [Loom Docs](https://support.loom.com/hc/en-us/articles/360002158057-What-is-Loom-)
+Official website : https://www.crest.money/
 
-> The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more.
->
-> — From the [Mailchimp Marketing API docs](https://mailchimp.com/developer/marketing/docs/fundamentals/)
+## 2. Crest VS Yearn
 
-## Getting Started
+Yearn Finance (YFI) is a benchmark of liquidity management. There are some key differences between Universe and Yearn. ‌&#x20;
 
-**Got 2 minutes?** Check out a video overview of our product:
+**Universe = Yearn + Uniswap V3 ‌**&#x20;
 
-{% embed url="https://www.loom.com/share/3bfa83acc9fd41b7b98b803ba9197d90" %}
+Universe is built for Uniswap V3 while Yearn focuses on Curve Finance.&#x20;
 
-{% hint style="info" %}
-**Good to know:** A succinct video overview is a great way to introduce folks to your product. Embed a Loom, Vimeo or YouTube video and you're good to go! We love this video from the fine folks at [Loom](https://loom.com) as a perfect example of a succinct feature overview.
-{% endhint %}
+**Universe = Yearn + Risk Grading ‌**&#x20;
 
-### Guides: Jump right in
+The products of Universe can meet different demands of users who have different risk  appetites. ‌&#x20;
 
-Follow our handy guides to get started on the basics as quickly as possible:
+**Universe = Yearn + Quantitative Strategy** ‌&#x20;
 
-{% content-ref url="guides/creating-your-first-project.md" %}
-[creating-your-first-project.md](guides/creating-your-first-project.md)
-{% endcontent-ref %}
+Universe maximizes the return of LP through quantitative strategies. ‌&#x20;
 
-{% content-ref url="guides/creating-your-first-task.md" %}
-[creating-your-first-task.md](guides/creating-your-first-task.md)
-{% endcontent-ref %}
+**Universe = Yearn + Leverage Trading** ‌&#x20;
 
-{% content-ref url="guides/advanced-permissions.md" %}
-[advanced-permissions.md](guides/advanced-permissions.md)
-{% endcontent-ref %}
+Users can open long/short LP positions earning both trading profit and LP profit.
 
-{% hint style="info" %}
-**Good to know:** your product docs aren't just a reference of all your features! use them to encourage folks to perform certain actions and discover the value in your product.
-{% endhint %}
+## 3. Products
 
-### Fundamentals: Dive a little deeper
+With a series of products, Universe Finance can meet the needs of LPs who have different risk appetites.
 
-Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
+* Uniswap V3 Backtesting Platform&#x20;
+* Uniswap V3 Active LP Quantitative Management Strategy&#x20;
+* Uniswap V3 Smart Vault&#x20;
+* Uniswap V3 Private Vault&#x20;
+* Uniswap V3 Hedging Vault (Developing)&#x20;
+* Uniswap V3 Leveraged Vault (Designing)
 
-{% content-ref url="fundamentals/projects.md" %}
-[projects.md](fundamentals/projects.md)
-{% endcontent-ref %}
+## **4. The Challenges on Uniswap V3**
 
-{% content-ref url="fundamentals/members.md" %}
-[members.md](fundamentals/members.md)
-{% endcontent-ref %}
+The most significant improvement of Uniswap V3 is its ability to gather liquidity in a specified range, and in this way, it can generate earnings several times more than V2. Although it produces high yields, it also causes many challenges to LPs:
 
-{% content-ref url="fundamentals/task-lists.md" %}
-[task-lists.md](fundamentals/task-lists.md)
-{% endcontent-ref %}
+**Challenge 1：High risk**
 
-{% content-ref url="fundamentals/tasks.md" %}
-[tasks.md](fundamentals/tasks.md)
-{% endcontent-ref %}
+While centralized liquidity can enlarge the income by increasing the capital efficiency, it also amplifies the impact of impermanent loss, especially when the price is out of range. Once it happens, the impermanent loss may continue to increase while the income goes to zero.&#x20;
 
-{% hint style="info" %}
-**Good to know:** Splitting your product into fundamental concepts, objects, or areas can be a great way to let readers deep dive into the concepts that matter most to them. Combine guides with this approach to 'fundamentals' and you're well on your way to great documentation!
-{% endhint %}
+**Challenge 2: High cost**&#x20;
+
+To ensure the sustainability and stability of income, rebalancing and reinvesting are necessary, but they both require users to pay high Gas fees. For ordinary users, the gas fee will blow away all the fee income carelessly.
+
+**Challenge 3: Rebalancing**&#x20;
+
+How to dynamically set the optimal price range to earn the optimal fee income? When the price deviates, it may face the risk of abnormality if it is not balanced, and it may also face the risk of loss of net value after the price returns. The timing and parameters of rebalancing are two complex quantitative matters.
+
+**Challenge 4: Reinvestment**&#x20;
+
+Compared with automatic reinvestment on V2, V3 requires manual reinvestment of the fee income. How to resume investment continuously and stably? How much influence does the gas fee of reinvestment have on the returns? These problems are extremely challenging for most LPs.
+
+**Challenge 5: Hedging**&#x20;
+
+Uniswap LP needs to provide dual currency investment (e.g., ETH-USDC). How do U-based users with low-risk preferences offset the price fluctuation of risky assets (such as ETH)? Furthermore, how to hedge the risk of LPs' impermanence loss?
+
+## **5. Who do we serve?**
+
+Universe serves different types of users in the Uniswap ecosystem.
+
+### **Risk-averse users**&#x20;
+
+#### Example 1: U-based users or arbitrageurs with the lower risk appetite&#x20;
+
+**Need:** cutting-edge hedging strategies and tools that allow users to earn low-risk arbitrage returns.&#x20;
+
+**Challenge:** lack of efficient LP hedging strategies and useful LP hedging tools.&#x20;
+
+#### Example 2: High-net-worth users and institutions&#x20;
+
+**Need:** fund security+secured smart contracts.&#x20;
+
+**Challenge:** smart contracts are between Scylla and Charybdis at the moment.
+
+### **Risk-neutral user**
+
+#### Example: currency-based users or ordinary liquidity miners.&#x20;
+
+**Need:** looking for higher and more stable LP income&#x20;
+
+**Challenge:** currently, the income of mining is comparatively low and unstable.
+
+### **Risk-seeking user**
+
+#### Example: transactional users with higher risk preference.&#x20;
+
+**Need:** looking for high-risk and high-yield trading opportunities and earn stable mining income&#x20;
+
+**Challenge:** lack of appropriate products in the market that can earn mining and trading income at the same time
+
+6\. **Our approaches to the Challenges**
+----------------------------------------
+
+Universe solves these problems and meets the needs through a series of combinable products.
+
+### 6.1 Universe backtesting Platform
+
+Universe Backtesting is the first LP revenue backtesting system on Uniswap V3 with accurate on-chain data, granularity of block-level backtesting, flexible self-defined parameters, and robust strategy analysis indicators. It can help users understand the benefits and the risks of Uniswap V3 LP easier and customize the LP strategies.
+
+### 6.2 Universe Active LP Management Quantitative Strategy &#x20;
+
+The active LP management quantitative strategies solve many problems on Uniswap V3 LP: high risk, high cost, rebalancing problem, extreme market situations, high loss value, etc.&#x20;
+
+Based on the underlying principle of Uniswap V3, we established a multifactor quantitative financial model. We finally created a strategy model with stable income through a large amount of data backtesting and optimizing. According to the backtesting data in the previous two months, the annualized earning of fee APY of the smart vault reaches 150%+. The net annualized income is up to 50%\~70%. These two items are outperforming all revenue products on the market.
+
+### 6.3 Universe Smart Vault
+
+**Target users:** currency-based users or ordinary LP users (risk-neutral users)&#x20;
+
+**Product Description:** A specific intelligent quantitative strategy supports each smart vault. Under the instruction of the strategy signal, the strategy contract dynamically rebalances the liquidity position of LPs, and helps users earn fee income.
+
+### 6.4 Universe Private Vault
+
+**Target users:** high-net-worth individuals and institutions (risk-averse users).&#x20;
+
+**Product Description:** the Universe private vaults is the intelligent vault with high-level security for high-net-worth individuals and institutions. Comparatively, the private vaults have improved their security through multiple technical solutions. And from a service perspective, the private vaults adopt a flexible deployment scheme to meet the user’s security needs fully.
+
+### 6.5 Universe Hedge vault
+
+**Target users:** USDT-based users or arbitrage users (risk avoidance type).&#x20;
+
+**Product Description:** With the hedging vault, users can borrow money to create market-neutral hedging LP positions, generating more fee income and offsetting the price risk of risky assets in the positions.
+
+### 6.6 Universe Leveraged Vault
+
+**Target users:** transactional users (risk-seeking users).&#x20;
+
+**Product Description:** by depositing in the leveraged vault, users can create long or short trading LP positions to earn trading income based on market evaluation and earn high mining income. However, trading LP positions would face higher liquidation risks.
+
+7\. **Why Choose Universe Finance?**
+------------------------------------
+
+**High return:** the true return rate of ETH-USD LP in Universe Finance is the highest in the past few months.&#x20;
+
+**Stable income:** after extreme market tests, our users can still enjoy low retracement and high Sharpe ratio and continuously earn fee income.&#x20;
+
+**Low cost:** users do not need to pay the expensive gas fees for rebalancing and reinvesting.&#x20;
+
+**Risk grading:** risk is the foundation of finance. The risk grading management systems can meet the needs of different LPs.
+
+**Simple:** automatic balancing, automatic reinvesting, automatic income tracking, etc.
+
+## 8. Universe product roadmap
+
+**2021 Q2**
+
+* Backtesting system: Completed
+* Active LP quantitative management strategy: Completed
+* Smart Vault: Completed
+
+**2021 Q3**
+
+* Private Vault: Completed
+* Hedge Vault: Developing
+* L2 Support : Developing
+
+**2021 Q4**
+
+* Leveraged Vault: Designing
+* Token economic model  (staking dividends, burning, etc.): To be determined
+* Liquidity mining: To be determined
+
+## 9.Why Uniswap?
+
+* Uniswap V3 is currently the best DEX with the most excellent depth and the lowest slippage.&#x20;
+* Uniswap V3 is currently the DEX with the most significant transaction volume. The market share continues to increase.&#x20;
+* We believe professional and active LP management will be a hot trend to develop in DEX with a promising future and tremendous market potential.&#x20;
+* We can migrate some of our products and technologies to other public chains and DEX (Sushiswap, PancakeSwap, Mdex, etc.). However, we will focus on Ethereum and Uniswap in the short and medium-term.
+
+## 10.Universe Finance's vision
+
+Maximize the liquidity income on Uniswap; build a one-stop yield platform with the highest and most stable real rate of return across the whole Defi market.
