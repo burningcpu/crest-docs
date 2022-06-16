@@ -4,13 +4,14 @@
 
 ## Products
 
+* [Roadmap](products/roadmap.md)
 * [Uniswap V3 pools](products/uniswap-v3-pools.md)
 * [Lending pools](products/lending-pools.md)
 
 ## User Guide
 
 * [Quick Guide](user-guide/quick-guide.md)
-* [Advance guide](user-guide/advance-guide.md)
+* [Advance Guide](user-guide/advance-guide.md)
 * [FAQ](user-guide/faq.md)
 
 ## Governance
@@ -23,11 +24,12 @@
 * [Bug Bounty](development/bug-bounty.md)
 * [Github](development/github.md)
 
-## Crest Careers
+## Join us
 
-* [Work Flow, Payment](crest-careers/work-flow-payment.md)
-* [Jobs](crest-careers/jobs.md)
+* [Jobs](join-us/jobs.md)
+* [Work Flow, Payment](join-us/work-flow-payment.md)
 
-## resource
+## get involved
 
-* [Contact us](resource/contact-us.md)
+* [Contribute](get-involved/contribute.md)
+* [Contact us](get-involved/contact-us.md)
