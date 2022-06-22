@@ -1,22 +1,30 @@
-# Overview
+# Introduction
 
-## **1. What is** Crest Protocol **?**
+You can access Crest Protocol through the official [Web App](https://www.crest.money).
+
+Welcome to the Crest Protocol documentation site.
+
+## **What is** Crest Protocol **?**
 
 Crest Protocol is an active liquidity management platform of Uniswap V3 based on quantitative strategies.&#x20;
 
-Official website : https://www.crest.money
+Crest's vision: Maximize the liquidity income on Uniswap; build a one-stop yield platform with the highest and most stable real rate of return across the whole Defi market.
 
-## 2. Products
+## Products
 
 With a series of products, Crest Protocol can meet the needs of LPs who have different risk appetites.
 
 * Uniswap V3 Active LP Quantitative Management Strategy&#x20;
-* Uniswap V3 Smart Vault&#x20;
-* Uniswap V3 Private Vault&#x20;
-* Uniswap V3 Hedging Vault (Developing)&#x20;
-* Uniswap V3 Leveraged Vault (Designing)
+* Lending Pool(comming soon)
 
-## **3. The Challenges on Uniswap V3**
+## Why Uniswap?
+
+* Uniswap V3 is currently the best DEX with the most excellent depth and the lowest slippage.&#x20;
+* Uniswap V3 is currently the DEX with the most significant transaction volume. The market share continues to increase.&#x20;
+* We believe professional and active LP management will be a hot trend to develop in DEX with a promising future and tremendous market potential.&#x20;
+* We can migrate some of our products and technologies to other public chains and DEX (Sushiswap, PancakeSwap, Mdex, etc.). However, we will focus on Ethereum and Uniswap in the short and medium-ter
+
+## **The Challenges on Uniswap V3**
 
 The most significant improvement of Uniswap V3 is its ability to gather liquidity in a specified range, and in this way, it can generate earnings several times more than V2. Although it produces high yields, it also causes many challenges to LPs:
 
@@ -40,7 +48,7 @@ Compared with automatic reinvestment on V2, V3 requires manual reinvestment of t
 
 Uniswap LP needs to provide dual currency investment (e.g., ETH-USDC). How do U-based users with low-risk preferences offset the price fluctuation of risky assets (such as ETH)? Furthermore, how to hedge the risk of LPs' impermanence loss?
 
-## **4. Who do we serve?**
+## **Who do we serve?**
 
 Crest Protocol serves different types of users in the Uniswap ecosystem.
 
@@ -74,43 +82,25 @@ Crest Protocol serves different types of users in the Uniswap ecosystem.
 
 **Challenge:** lack of appropriate products in the market that can earn mining and trading income at the same time
 
-6\. **Our approaches to the Challenges**
-----------------------------------------
+**Our approaches to the Challenges**
+------------------------------------
 
 Crest Protocol solves these problems and meets the needs through a series of combinable products.
 
-### 6.1 Crest Active LP Management Quantitative Strategy &#x20;
+### Crest Active LP Management Quantitative Strategy &#x20;
 
 The active LP management quantitative strategies solve many problems on Uniswap V3 LP: high risk, high cost, rebalancing problem, extreme market situations, high loss value, etc.&#x20;
 
 Based on the underlying principle of Uniswap V3, we established a multifactor quantitative financial model. We finally created a strategy model with stable income through a large amount of data backtesting and optimizing. According to the backtesting data in the previous two months, the annualized earning of fee APY of the smart vault reaches 150%+. The net annualized income is up to 50%\~70%. These two items are outperforming all revenue products on the market.
 
-### 6.2 Crest Smart Vault
+### Crest Smart Vault
 
 **Target users:** currency-based users or ordinary LP users (risk-neutral users)&#x20;
 
 **Product Description:** A specific intelligent quantitative strategy supports each smart vault. Under the instruction of the strategy signal, the strategy contract dynamically rebalances the liquidity position of LPs, and helps users earn fee income.
 
-### 6.4 Crest Private Vault
-
-**Target users:** high-net-worth individuals and institutions (risk-averse users).&#x20;
-
-**Product Description:** the Universe private vaults is the intelligent vault with high-level security for high-net-worth individuals and institutions. Comparatively, the private vaults have improved their security through multiple technical solutions. And from a service perspective, the private vaults adopt a flexible deployment scheme to meet the user’s security needs fully.
-
-### 6.5 Crest Hedge vault
-
-**Target users:** USDT-based users or arbitrage users (risk avoidance type).&#x20;
-
-**Product Description:** With the hedging vault, users can borrow money to create market-neutral hedging LP positions, generating more fee income and offsetting the price risk of risky assets in the positions.
-
-### 6.6 Crest Leveraged Vault
-
-**Target users:** transactional users (risk-seeking users).&#x20;
-
-**Product Description:** by depositing in the leveraged vault, users can create long or short trading LP positions to earn trading income based on market evaluation and earn high mining income. However, trading LP positions would face higher liquidation risks.
-
-7\. **Why Choose** Crest Protocol**?**
---------------------------------------
+**Why Choose** Crest Protocol**?**
+----------------------------------
 
 **High return:** the true return rate of ETH-USD LP in Crest is the highest in the past few months.&#x20;
 
@@ -122,7 +112,7 @@ Based on the underlying principle of Uniswap V3, we established a multifactor qu
 
 **Simple:** automatic balancing, automatic reinvesting, automatic income tracking, etc.
 
-## 8.  Roadmap
+## Roadmap
 
 **2022Q2**
 
@@ -141,14 +131,3 @@ Based on the underlying principle of Uniswap V3, we established a multifactor qu
 * Leveraged Vault: Designing
 * Token economic model  (staking dividends, burning, etc.): To be determined
 * Liquidity mining: To be determined
-
-## 9.Why Uniswap?
-
-* Uniswap V3 is currently the best DEX with the most excellent depth and the lowest slippage.&#x20;
-* Uniswap V3 is currently the DEX with the most significant transaction volume. The market share continues to increase.&#x20;
-* We believe professional and active LP management will be a hot trend to develop in DEX with a promising future and tremendous market potential.&#x20;
-* We can migrate some of our products and technologies to other public chains and DEX (Sushiswap, PancakeSwap, Mdex, etc.). However, we will focus on Ethereum and Uniswap in the short and medium-term.
-
-## 10.Crest Protocol's vision
-
-Maximize the liquidity income on Uniswap; build a one-stop yield platform with the highest and most stable real rate of return across the whole Defi market.
