@@ -25,10 +25,10 @@ The following are not within the scope of the Program:
 
 The severity of those bugs will be calculated using the Common Vulnerability Scoring System (CVSS):
 
-| Critical(9.0-10.0) | $50,000 - $100,000 UNT |
+| Critical(9.0-10.0) | $50,000 - $100,000 CRE |
 | ------------------ | ---------------------- |
-| High (7.0-8.9)     | Up to $15,000 UNT      |
-| Medium(4.0-6.9)    | Up to $3,000 UNT       |
+| High (7.0-8.9)     | Up to $15,000 CRE      |
+| Medium(4.0-6.9)    | Up to $3,000 CRE       |
 
 In addition to severity, rewards will also be weighed against the impact of bugs found and the difficulty level of finding them.
 
@@ -57,7 +57,7 @@ A detailed report of a vulnerability increases the likelihood of a reward and ma
 To be eligible for a reward under this Program, you must:
 
 * Discover a previously unreported, non-public vulnerability that would result in a loss of and/or lock on any assets on Crest (but not on any third party platform interacting with Crest) and that is within the scope of this Program.
-* Be the first to disclose the unique vulnerability to team@Crest.finance, in compliance with the disclosure requirements above. If similar vulnerabilities are reported within the same 24 hour period, rewards will be split at the discretion of Crest.
+* Be the first to disclose the unique vulnerability to team@Crest.finance, in cfompliance with the disclosure requirements above. If similar vulnerabilities are reported within the same 24 hour period, rewards will be split at the discretion of Crest.
 * Provide sufficient information to enable our engineers to reproduce and fix the vulnerability.
 * Not engage in any unlawful conduct when disclosing the bug to team@Crest.finance, including through threats, demands, or any other coercive tactics.
 * Not exploit the vulnerability in any way, including through making it public or by obtaining a profit (other than a reward under this Program).
