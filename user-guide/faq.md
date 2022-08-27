@@ -10,13 +10,9 @@ We realised the launch of Uniswap V3 offers us a great opportunity. Uniswap V3 b
 
 ### **3. The main focus of** Crest Protocol <a href="#4.-the-main-focus-of-universe-finance" id="4.-the-main-focus-of-universe-finance"></a>
 
-We are focusing on IDOs, $UNT listing, community growth, and ads in terms of marketing.We are working on leverage vault and hedge vault in terms of development. Stay tuned, and new products are coming soon.
+We are focusing on community growth, and ads in terms of marketing.We are working on leverage vault and hedge vault in terms of development. Stay tuned, and new products are coming soon.
 
-### **4. Can you introduce your partners? Who do you plan to team up with in the future?** <a href="#5.-can-you-introduce-your-partners-who-do-you-plan-to-team-up-with-in-the-future" id="5.-can-you-introduce-your-partners-who-do-you-plan-to-team-up-with-in-the-future"></a>
-
-Crest Protocol has already established its ecological partnership with Uniswap. You can find us in Uniswap’s Ecosystem:[ https://uniswap.org/ecosystem](https://uniswap.org/ecosystem).Apart from this, we have teamed up with Polygon, Instadapp, OlympusDAO, Poolz, DODO, Spartan Protocol, Tetu and MEXC, etc. Also, we recently are actively engaged with different projects such as MoonLight.We are looking for building solid collaboration with more protocols. And we are also looking forward to managing other protocols’ Uniswap V3 liquidity through our professional LP management.C
-
-### **6. What’s the difference between** Crest Protocol **and other Uni-V3 LP management programs?** <a href="#6.-whats-the-difference-between-universe-finance-and-other-uni-v3-lp-management-programs" id="6.-whats-the-difference-between-universe-finance-and-other-uni-v3-lp-management-programs"></a>
+### **4. What’s the difference between** Crest Protocol **and other Uni-V3 LP management programs?** <a href="#6.-whats-the-difference-between-universe-finance-and-other-uni-v3-lp-management-programs" id="6.-whats-the-difference-between-universe-finance-and-other-uni-v3-lp-management-programs"></a>
 
 There are three main differences:
 
@@ -46,11 +42,7 @@ We also help LPs reinvest to maintain high yields. Like yield aggregators, we re
 
 Crest Protocol covers all the gas fees of rebalance and reinvestment. Continuous rebalances and reinvestments will definitely cost users a lot of gas fees. If LPs do it all by themselves, their trading fees may not cover the expensive gas fees.
 
-### 3. Does single-asset vaults have an impermanent loss? <a href="#3.-does-single-asset-vaults-have-an-impermanent-loss" id="3.-does-single-asset-vaults-have-an-impermanent-loss"></a>
-
-Just like dual-asset vaults, single-asset vaults may also face impermanent loss. However, it’s calculated through a different method.
-
-### 4. Why would I deposit on Crest Protocol instead of directly providing liquidity on Uniswap V3? <a href="#4.-why-would-i-deposit-on-universe-finance-instead-of-directly-providing-liquidity-on-uniswap-v3" id="4.-why-would-i-deposit-on-universe-finance-instead-of-directly-providing-liquidity-on-uniswap-v3"></a>
+### 3. Why would I deposit on Crest Protocol instead of directly providing liquidity on Uniswap V3? <a href="#4.-why-would-i-deposit-on-universe-finance-instead-of-directly-providing-liquidity-on-uniswap-v3" id="4.-why-would-i-deposit-on-universe-finance-instead-of-directly-providing-liquidity-on-uniswap-v3"></a>
 
 Reasons to deposit on an active liquidity management platform instead of depositing on Uniswap V3 directly:
 
@@ -60,66 +52,23 @@ Reasons to deposit on an active liquidity management platform instead of deposit
 
 3.Uniswap won’t cover your rebalance gas fees; Crest does. (You need to pay expensive gas fees when adjusting your price range. Crest will cover all the gas fees of each movement)
 
-### 5. Why do some vaults have unbelievable APRs? <a href="#5.-why-do-some-vaults-have-unbelievable-aprs" id="5.-why-do-some-vaults-have-unbelievable-aprs"></a>
+### 4. Why do some vaults have unbelievable APRs? <a href="#5.-why-do-some-vaults-have-unbelievable-aprs" id="5.-why-do-some-vaults-have-unbelievable-aprs"></a>
 
 The secrets of high returns:
 
 1.We specifically choose and launch Uniswap V3 vaults with large transaction volume.
 
-C2.Crest active liquidity management can further boost users’ returns
+2.Crest active liquidity management can further boost users’ returns
 
-### 6. Does the APR represent the authentic returns? <a href="#6.-does-the-apr-represent-the-authentic-returns" id="6.-does-the-apr-represent-the-authentic-returns"></a>
+### 5. Does the APR represent the authentic returns? <a href="#6.-does-the-apr-represent-the-authentic-returns" id="6.-does-the-apr-represent-the-authentic-returns"></a>
 
 The vaults’ APRs stand for the returns of trading fees gathered from Uniswap V3 pools. It’s not equal to actual returns because real returns may be affected by impermanent losses. Apart from this, under the extreme market, when the price change dramatically (increase or drop rapidly), the pool probably would be out of range and needs to be rebalanced. It could cause impermanent losses as well. Usually, based on the market signals we capture, we would set a wider price range to a low-trading-volume trading pair to keep the pool in the range. In this case, a wider range can help reduce impermanent losses to some extent.
-
-## **Private Vault** <a href="#private-vault" id="private-vault"></a>
-
-### 1. Is it true that only the users in the white list are eligible to participate in the Crest Private Vault? What about Early Bird Vault? <a href="#1.-is-it-true-that-only-the-users-in-the-white-list-are-eligible-to-participate-in-the-universe-priv" id="1.-is-it-true-that-only-the-users-in-the-white-list-are-eligible-to-participate-in-the-universe-priv"></a>
-
-The Private Vault is a highly secure version of the smart vault specially designed and developed by Crest for high-net-worth individuals and institutions. If you are a user with more than a $2M fund or a qualified or KOL institution, you submit your application to Crest Protocol without any charge. To better secure our users' funds, our private vault is currently only available for those on the white list.However, our Early Bird Vault is open for every user. We have taken the same safety method to safeguard these two vaults, except the early bird vault is not subject to the white list. If you would like to read more information about it, please click here to see the Crest's safety mechanism file (coming soon). In terms of earning, both share the same strategies. At the same time, we must realize any investment could involve a specific risk. Users should fully evaluate risk capability before deciding on an investment.
-
-### 2. Who is Eligible To Our Private Vault? <a href="#2.-who-is-eligible-to-our-private-vault" id="2.-who-is-eligible-to-our-private-vault"></a>
-
-* High-net-worth institutional users
-* KOL, owned media, and leader of a community
-* High-net-worth individuals with over $2M funds
-
-### 3. What do the Eligible Users Need When Submitting An Application? <a href="#3.-what-do-the-eligible-users-need-when-submitting-an-application" id="3.-what-do-the-eligible-users-need-when-submitting-an-application"></a>
-
-#### (1) Institutional users <a href="#1-institutional-users" id="1-institutional-users"></a>
-
-* Certificate of institutional qualification
-* Sign a cooperation agreement
-* Stake at least 20K UNTs
-* Deploy a private vault contract: The user can independently deploy the contract or deploy it with the assist of Crest Protocol.
-
-#### (2) KOL users <a href="#2-kol-users" id="2-kol-users"></a>
-
-* KOL influence data
-* Sign a cooperation agreement
-* Stake at least 20K UNTs
-* Deploy a private vault contract: The user can independently deploy the contract or deploy it with the assist of Crest Protocol.
-
-#### (3) High-net-worth individuals <a href="#3-high-net-worth-individuals" id="3-high-net-worth-individuals"></a>
-
-* Funding certification
-* Sign a cooperation agreement
-* Stake at least 20K UNTs
-* Deploy a private vault contract: The user can independently deploy the contract or deploy it with the assist of Crest Protocol.
 
 ## **Airdrop** <a href="#airdrop" id="airdrop"></a>
 
 ### 1. Is there any Airdrop for Early Users in Crest Protocol? <a href="#1.-is-there-any-airdrop-for-early-users-in-universe-finance" id="1.-is-there-any-airdrop-for-early-users-in-universe-finance"></a>
 
 Yes, there is! We will undoubtedly airdrop those early users and contributors. Additionally, we will also carry out an Incentive Plan for Our Early Users lasting for four weeks. By that time, users can claim the airdrop from us.
-
-### 2. When can I receive my airdropped $UNT? <a href="#2.-when-can-i-receive-my-airdropped-usdunt" id="2.-when-can-i-receive-my-airdropped-usdunt"></a>
-
-If you participated in the airdrop mining before the 27th of February at 24:00 UTC, to save gas fees for our spacemen, we have distributed the $UNT rewards to users’ ETH addresses (Polygon users will receive the airdrops in your ETH addresses as well) based on the $UNT snapshots.**Transaction Details for distributing the airdrops:** [https://etherscan.io/tx/0x770a6f73389b30ddb5d60b9227659998676c4627c56abf2a892aa6f342958a61](https://etherscan.io/tx/0x770a6f73389b30ddb5d60b9227659998676c4627c56abf2a892aa6f342958a61).If you have not received your $UNT airdrop, join our [**discord community**](https://discord.com/invite/universe-finance) and send a DM to our Mods. We may ask you to provide your wallet address and help you with the issue.
-
-### **3. How can I put my $UNT into use and make it profitable?** <a href="#3.-how-can-i-put-my-usdunt-into-use-and-make-it-profitable" id="3.-how-can-i-put-my-usdunt-into-use-and-make-it-profitable"></a>
-
-**​**[**Check here to see how can you make your $UNT profitable.**](https://universefinance.gitbook.io/docs/tokenomics/how-can-we-put-usdunt-into-use)**​**We are currently exploring more$UNT use cases by building partnerships with more projects. The new pools Spartan Protocol and Tetu perform very well:**BSC Section - Spartan Protocol -** [https://dapp.spartanprotocol.org/home](https://dapp.spartanprotocol.org/home)​**Polygon Section - Tetu -** [https://app.tetu.io](https://app.tetu.io/)
 
 ## **Smart Quantitative Strategies** <a href="#smart-quantitative-strategies" id="smart-quantitative-strategies"></a>
 

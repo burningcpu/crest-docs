@@ -27,7 +27,7 @@
 ## Join us
 
 * [Jobs](join-us/jobs.md)
-* [Work Flow, Payment](join-us/work-flow-payment.md)
+* [Work Flow](join-us/work-flow.md)
 
 ## get involved
 

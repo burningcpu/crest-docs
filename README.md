@@ -22,7 +22,6 @@ Crest's vision: Maximize the liquidity income on Uniswap; build a one-stop yield
 * Uniswap V3 is currently the best DEX with the most excellent depth and the lowest slippage.&#x20;
 * Uniswap V3 is currently the DEX with the most significant transaction volume. The market share continues to increase.&#x20;
 * We believe professional and active LP management will be a hot trend to develop in DEX with a promising future and tremendous market potential.&#x20;
-* We can migrate some of our products and technologies to other public chains and DEX (Sushiswap, PancakeSwap, Mdex, etc.). However, we will focus on Ethereum and Uniswap in the short and medium-ter
 
 ## **The Challenges on Uniswap V3**
 
