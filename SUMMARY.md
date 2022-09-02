@@ -4,7 +4,7 @@
 
 ## Products
 
-* [Features](products/features.md)
+* [Features](products/uniswap-v3-pools.md)
 * [Roadmap](products/roadmap.md)
 
 ## User Guide

@@ -10,7 +10,7 @@ The trading volume of Uniswap has surpassed that of mainstream exchanges and has
 
 As shown in the figure below, the benefits obtained in different intervals are completely different, and the capital utilization rate will be highest only in the transaction-intensive area.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Let's illustrate with an example:
 

@@ -2,25 +2,21 @@
 
 1. Enter https://crest.money/，and click Launch APP
 
-<figure><img src="https://sxkv9vclei.larksuite.com/space/api/box/stream/download/asynccode/?code=MmUwNWUzZmU3ZWE3OGEyOGMwODlmOGJiMjViMDg1NzRfNmtpMFBMdTY3UU1paGxUZ1RHYmJYWjVjUnhVeDZ4ZFBfVG9rZW46Ym94dXNjMUVrZENwQUtWNmlwaVZXTmgwR3RkXzE2NjIxMzY3MDc6MTY2MjE0MDMwN19WNA" alt=""><figcaption><p>Launch APP</p></figcaption></figure>
-
-
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Launch APP</p></figcaption></figure>
 
 2\. Connect the wallet via MetaMask
 
-<figure><img src="https://sxkv9vclei.larksuite.com/space/api/box/stream/download/asynccode/?code=ODIxZDdmOTIzNDE5ZWVhMzlmOWYyZjM0YzFhZTUzM2VfTFhIT3owTGNNbFIwekkwd2xHNEZTU2VuQnF3SmZjYktfVG9rZW46Ym94dXNqUmY2aWoycm1NTXVWM2hreTR0TG9jXzE2NjIxMzY3MDc6MTY2MjE0MDMwN19WNA" alt=""><figcaption><p>Connect wallet</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 
 
 3\. Switch network, currently supports four networks: Ethereum, Polygon, Optimism, Arbitrum
 
-<figure><img src="https://sxkv9vclei.larksuite.com/space/api/box/stream/download/asynccode/?code=ODE5NGVmNWY0OWQxM2UwYmJjYmFkYWIzNTc0ODIyNzBfSTI1QXVLdHgza0xjNGJlMTRHV3k5VE5XSlpsVjdjMnBfVG9rZW46Ym94dXN3YXBUOXNKNGRtcHE5QkJMY1hUT2RmXzE2NjIxMzY3MDc6MTY2MjE0MDMwN19WNA" alt=""><figcaption><p>Switch network</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 4\. Click to enter the Earn list
 
-<figure><img src="https://sxkv9vclei.larksuite.com/space/api/box/stream/download/asynccode/?code=Nzc2MjYzNmM2NTU0NGY1NjczYTU4MTUyZmE2ZmZlY2ZfNWVpdW44RlNYWVpTczVHZFBvRUh3OFJNWGZBTEg1NE9fVG9rZW46Ym94dXNDNUlXRFRzMWtYZzd2dHZYQnRnYTBkXzE2NjIxMzY3MDc6MTY2MjE0MDMwN19WNA" alt=""><figcaption></figcaption></figure>
-
-5\. Select POOL, Approve Token is required for the first use
+<figure><img src="https://sxkv9vclei.larksuite.com/space/api/box/stream/download/asynccode/?code=Nzc2MjYzNmM2NTU0NGY1NjczYTU4MTUyZmE2ZmZlY2ZfNWVpdW44RlNYWVpTczVHZFBvRUh3OFJNWGZBTEg1NE9fVG9rZW46Ym94dXNDNUlXRFRzMWtYZzd2dHZYQnRnYTBkXzE2NjIxMzY3MDc6MTY2MjE0MDMwN19WNA" alt=""><figcaption><p>5. Select POOL, Approve Token is required for the first use</p></figcaption></figure>
 
 <figure><img src="https://sxkv9vclei.larksuite.com/space/api/box/stream/download/asynccode/?code=OWQwMzdmODY0OGRhZGY1Yjk2MDBhYTVmNDVmNTNlMzlfc0pMYkxrVHpWMXJuS2hMM1U0cFpUR2ZNU0lrQ2hrN3pfVG9rZW46Ym94dXN5TDFtMXFBc25yRDhwdGk2U3AxZmVmXzE2NjIxMzY3MDc6MTY2MjE0MDMwN19WNA" alt=""><figcaption><p>Approve Token</p></figcaption></figure>
 
