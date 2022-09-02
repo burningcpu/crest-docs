@@ -4,9 +4,8 @@
 
 ## Products
 
+* [Features](products/features.md)
 * [Roadmap](products/roadmap.md)
-* [Uniswap V3 pools](products/uniswap-v3-pools.md)
-* [Lending pools](products/lending-pools.md)
 
 ## User Guide
 

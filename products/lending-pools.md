@@ -1,3 +1,0 @@
-# Lending pools
-
-coming soon

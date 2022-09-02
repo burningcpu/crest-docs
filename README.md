@@ -2,101 +2,41 @@
 
 You can access Crest Protocol through the official [Web App](https://www.crest.money).
 
-Welcome to the Crest Protocol documentation site.
+Welcome to the Crest Protocol document site.
 
-## **What is** Crest Protocol **?**
+## **Background**
 
-Crest Protocol is an active liquidity management platform of Uniswap V3 based on quantitative strategies.&#x20;
+The trading volume of Uniswap has surpassed that of mainstream exchanges and has become the decentralized trading platform with the largest trading volume, and its market share will gradually increase. The liquidity provision of Uniswap V2 is simple to operate, but free losses discourage users. The mechanics of Uniswap V3 give expert traders enormous scope to reap rewards by identifying and setting the current market’s trade-intensive range. The same funds, different interval settings, the benefits obtained are worlds apart.&#x20;
 
-Crest's vision: Maximize the liquidity income on Uniswap; build a one-stop yield platform with the highest and most stable real rate of return across the whole Defi market.
+As shown in the figure below, the benefits obtained in different intervals are completely different, and the capital utilization rate will be highest only in the transaction-intensive area.
 
-## Products
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-With a series of products, Crest Protocol can meet the needs of LPs who have different risk appetites.
+Let's illustrate with an example:
 
-* Uniswap V3 Active LP Quantitative Management Strategy&#x20;
-* Lending Pool(comming soon)
+Alice and Bob both want to provide liquidity in an ETH/DAI pool on Uniswap v3. They each have \\$1m. The current price of ETH is 1,500 DAI.
 
-## Why Uniswap?
+Alice decides to deploy her capital across the entire price range (as she would have in Uniswap v2). She deposits 500,000 DAI and 333.33 ETH (worth a total of \\$1m).
 
-* Uniswap V3 is currently the best DEX with the most excellent depth and the lowest slippage.&#x20;
-* Uniswap V3 is currently the DEX with the most significant transaction volume. The market share continues to increase.&#x20;
-* We believe professional and active LP management will be a hot trend to develop in DEX with a promising future and tremendous market potential.&#x20;
+Bob instead creates a concentrated position, depositing only within the price range from 1,000 to 2,250. He deposits 91,751 DAI and 61.17 ETH, worth a total of about $183,500. He keeps the other $816,500 himself, investing it however he prefers.
 
-## **The Challenges on Uniswap V3**
+While Alice has put down 5.44x as much capital as Bob, _they earn the same amount of fees_, as long as the ETH/DAI price stays within the 1,000 to 2,250 range.
 
-The most significant improvement of Uniswap V3 is its ability to gather liquidity in a specified range, and in this way, it can generate earnings several times more than V2. Although it produces high yields, it also causes many challenges to LPs:
+Liquidity providers need to follow the market price, constantly adjust the range, and set the range in the current trading intensive area to obtain the maximum return. However, the interval adjustment is frequent, and the gas consumption is also a huge overhead, and a balance needs to be found here. Obviously, this is very demanding on liquidity providers.
 
-**Challenge 1：High risk**
+Is it possible to provide an agreement? Let LP entrust funds to GP for management. LP does not need to manage the interval, does not need to pay attention to the transaction-intensive area, and does not need to consume GAS. It only needs to deposit money, withdraw money, and obtain income. The GP can obtain the operation authority of the LP's funds, but cannot withdraw funds. It can only set the interval, so as to ensure the absolute security of the LP's funds. The GP helps the LP to earn a proportional share of the fees.
 
-While centralized liquidity can enlarge the income by increasing the capital efficiency, it also amplifies the impact of impermanent loss, especially when the price is out of range. Once it happens, the impermanent loss may continue to increase while the income goes to zero.&#x20;
+Crest Protocol was born in this context.
 
-**Challenge 2: High cost**&#x20;
+## What is Crest Protocol?
 
-To ensure the sustainability and stability of income, rebalancing and reinvesting are necessary, but they both require users to pay high Gas fees. For ordinary users, the gas fee will blow away all the fee income carelessly.
+Crest Protocol is a liquidity management platform based on quantitative strategies on Uniswap V3. After the liquidity provider provides liquidity through the Crest smart contract, there is no need to adjust the range, and it is all managed by Crest Protocol and the GPs who join the platform. Help liquidity providers save gas fees, lower the threshold for participating in Uniswap V3, and improve the efficiency of revenue and capital use.
 
-**Challenge 3: Rebalancing**&#x20;
+## The role of Crest Protocol
 
-How to dynamically set the optimal price range to earn the optimal fee income? When the price deviates, it may face the risk of abnormality if it is not balanced, and it may also face the risk of loss of net value after the price returns. The timing and parameters of rebalancing are two complex quantitative matters.
-
-**Challenge 4: Reinvestment**&#x20;
-
-Compared with automatic reinvestment on V2, V3 requires manual reinvestment of the fee income. How to resume investment continuously and stably? How much influence does the gas fee of reinvestment have on the returns? These problems are extremely challenging for most LPs.
-
-**Challenge 5: Hedging**&#x20;
-
-Uniswap LP needs to provide dual currency investment (e.g., ETH-USDC). How do U-based users with low-risk preferences offset the price fluctuation of risky assets (such as ETH)? Furthermore, how to hedge the risk of LPs' impermanence loss?
-
-## **Who do we serve?**
-
-Crest Protocol serves different types of users in the Uniswap ecosystem.
-
-### **Risk-averse users**&#x20;
-
-#### Example 1: U-based users or arbitrageurs with the lower risk appetite&#x20;
-
-**Need:** cutting-edge hedging strategies and tools that allow users to earn low-risk arbitrage returns.&#x20;
-
-**Challenge:** lack of efficient LP hedging strategies and useful LP hedging tools.&#x20;
-
-#### Example 2: High-net-worth users and institutions&#x20;
-
-**Need:** fund security+secured smart contracts.&#x20;
-
-**Challenge:** smart contracts are between Scylla and Charybdis at the moment.
-
-### **Risk-neutral user**
-
-#### Example: currency-based users or ordinary liquidity miners.&#x20;
-
-**Need:** looking for higher and more stable LP income&#x20;
-
-**Challenge:** currently, the income of mining is comparatively low and unstable.
-
-### **Risk-seeking user**
-
-#### Example: transactional users with higher risk preference.&#x20;
-
-**Need:** looking for high-risk and high-yield trading opportunities and earn stable mining income&#x20;
-
-**Challenge:** lack of appropriate products in the market that can earn mining and trading income at the same time
-
-**Our approaches to the Challenges**
-------------------------------------
-
-Crest Protocol solves these problems and meets the needs through a series of combinable products.
-
-### Crest Active LP Management Quantitative Strategy &#x20;
-
-The active LP management quantitative strategies solve many problems on Uniswap V3 LP: high risk, high cost, rebalancing problem, extreme market situations, high loss value, etc.&#x20;
-
-Based on the underlying principle of Uniswap V3, we established a multifactor quantitative financial model. We finally created a strategy model with stable income through a large amount of data backtesting and optimizing. According to the backtesting data in the previous two months, the annualized earning of fee APY of the smart vault reaches 150%+. The net annualized income is up to 50%\~70%. These two items are outperforming all revenue products on the market.
-
-### Crest Smart Vault
-
-**Target users:** currency-based users or ordinary LP users (risk-neutral users)&#x20;
-
-**Product Description:** A specific intelligent quantitative strategy supports each smart vault. Under the instruction of the strategy signal, the strategy contract dynamically rebalances the liquidity position of LPs, and helps users earn fee income.
+* LP: Liquidity providers, LPs can officially provide liquidity on Uniswap, but they need to follow the market to continuously adjust the range in order to obtain the maximum return, and LPs often suffer losses due to lack of experience.
+* GP: Expert traders, who can sensitively identify the intensive trading area, set the interval within a reasonable range, and ensure the maximization of returns. GPs can deploy V3 POOL in Crest Protocol to attract LP funds with high APR.
+* Protocol: The protocol provider is a set of smart contracts officially provided by Crest to ensure the security of funds and coordinate the relationship between GP and LP.
 
 **Why Choose** Crest Protocol**?**
 ----------------------------------
@@ -107,26 +47,6 @@ Based on the underlying principle of Uniswap V3, we established a multifactor qu
 
 **Low cost:** users do not need to pay the expensive gas fees for rebalancing and reinvesting.&#x20;
 
-**Risk grading:** risk is the foundation of finance. The risk grading management systems can meet the needs of different LPs.
-
 **Simple:** automatic balancing, automatic reinvesting, automatic income tracking, etc.
 
-## Roadmap
-
-**2022Q2**
-
-* Backtesting system: Completed
-* Active LP quantitative management strategy: Completed
-* Smart Vault: Completed
-
-**2022 Q3**
-
-* Private Vault: Completed
-* Hedge Vault: Developing
-* L2 Support : Developing
-
-**2022 Q4**
-
-* Leveraged Vault: Designing
-* Token economic model  (staking dividends, burning, etc.): To be determined
-* Liquidity mining: To be determined
+##
